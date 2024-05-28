@@ -11,17 +11,17 @@ The goal is to calculate the ARI based on the input text file and categorize the
 
 1. *Reading the File*: The script starts by accepting a filename as an argument. This filename is used to read the content for which the readability index will be calculated.
 
-2. *Calculating Word Count*: Using wc -w, the script counts the number of words in the file.
+2. *Calculating Word Count*: Using `wc -w`, the script counts the number of words in the file.
 
-3. *Calculating Character Count*: Similarly, wc -m helps in counting the number of characters.
+3. *Calculating Character Count*: Similarly, `wc -m` helps in counting the number of characters.
 
-4. *Counting Sentences*: A sentence is identified by the punctuation marks like a period, exclamation, or question mark. The script uses grep to count these.
+4. *Counting Sentences*: A sentence is identified by the punctuation marks like a period, exclamation, or question mark. The script uses `grep` to count these.
 
-5. *Calculating Characters per Word*: This is done by dividing the character count by the word count. The bc command is used for this calculation as it handles floating-point arithmetic.
+5. *Calculating Characters per Word*: This is done by dividing the character count by the word count. The `bc` command is used for this calculation as it handles floating-point arithmetic.
 
 6. *Calculating Words per Sentence*: The script divides the word count by the sentence count to get this metric.
 
-7. *Computing the ARI*: The script then applies the ARI formula using the bc command.
+7. *Computing the ARI*: The script then applies the ARI formula using the `bc` command.
 
 ### Challenges Faced
 
@@ -29,7 +29,7 @@ The main challenge encountered was the shell's inability to handle floating-poin
 
 ### Solution Implemented
 
-To overcome this, the script was modified to include the printf "%.0f" command. This command converts the floating-point ARI result into an integer by rounding it off. This integer value can then be used in the test command for comparison without any issues.
+To overcome this, the script was modified to include the `printf "%.0f"` command. This command converts the floating-point ARI result into an integer by rounding it off. This integer value can then be used in the test command for comparison without any issues.
 
 ### Conclusion
 
