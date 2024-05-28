@@ -25,11 +25,11 @@ The goal is to calculate the ARI based on the input text file and categorize the
 
 ### Challenges Faced
 
-The main challenge encountered was the shell's inability to handle floating-point numbers in arithmetic operations within the test command used for comparison in the conditional statements. The shell script initially failed to perform the necessary comparisons to categorize the readability level.
+The main challenge encountered was the shell's inability to handle floating-point numbers in arithmetic operations within the `test` command used for comparison in the conditional statements. The shell script initially failed to perform the necessary comparisons to categorize the readability level.
 
 ### Solution Implemented
 
-To overcome this, the script was modified to include the `printf "%.0f"` command. This command converts the floating-point ARI result into an integer by rounding it off. This integer value can then be used in the test command for comparison without any issues.
+To overcome this, the script was modified to include the `printf "%.0f"` command. This command converts the floating-point ARI result into an integer by rounding it off. This integer value can then be used in the `test` command for comparison without any issues.
 
 ### Conclusion
 
