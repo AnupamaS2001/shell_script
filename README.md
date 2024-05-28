@@ -1,5 +1,5 @@
 # shell_script
-##Automated Readability Index (ARI) 
+## Automated Readability Index (ARI) 
 
 Creating an Automated Readability Index (ARI) program in a shell script is a fascinating journey into the world of text analysis.The Automated Readability Index (ARI) is a tool used to measure how easy it is to understand a piece of text.The formula for ARI is as follows:
 
