@@ -33,4 +33,4 @@ To overcome this, the script was modified to include the `printf "%.0f"` command
 
 ### Conclusion
 
-The process of writing this ARI program in shell script highlights the importance of understanding the capabilities and limitations of the shell environment. It also showcases the necessity of creative problem-solving when dealing with programming challenges, such as handling floating-point arithmetic in a shell that primarily supports integer arithmetic. The final script is a testament to the adaptability and ingenuity required in coding. It's a simple yet powerful tool for analyzing the readability of text files, making it a valuable asset for writers, educators, and anyone interested in text analysis.`
+The process of writing this ARI program in shell script highlights the importance of understanding the capabilities and limitations of the shell environment. It also showcases the necessity of creative problem-solving when dealing with programming challenges, such as handling floating-point arithmetic in a shell that primarily supports integer arithmetic.
